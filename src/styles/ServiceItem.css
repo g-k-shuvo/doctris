@@ -1,0 +1,31 @@
+.service-item {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.service-image img {
+  height: 150px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.service-info {
+  padding: 16px 10px;
+}
+
+.service-info p {
+  font-size: 15px;
+}
+
+.service-info h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+
+.service-info .d-btn {
+  display: block;
+  text-align: center;
+  width: 100%;
+}

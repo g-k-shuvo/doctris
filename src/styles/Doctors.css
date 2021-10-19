@@ -1,0 +1,10 @@
+.all-doctors-heading {
+  background: linear-gradient(rgba(52, 58, 64, 0.75), rgba(52, 58, 64, 0.75)),
+    url("../images/about.jpg");
+  padding: 180px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center center;
+  text-align: center;
+}

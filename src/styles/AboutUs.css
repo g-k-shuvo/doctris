@@ -1,0 +1,15 @@
+.about-text {
+  margin-left: 18px;
+}
+
+.about-text h4 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.about-text P {
+  max-width: 600px;
+  font-size: 15px;
+  margin: 16px 0;
+}

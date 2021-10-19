@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "feedback": "International standard treatment facilities at affordable cost. It was truly a great experience. I would definitely recommend family and friends to this hospital.",
+    "name": "Calvin Carlo",
+    "image": "./testimonials-img/01.jpg"
+  },
+  {
+    "id": 2,
+    "feedback": "Great service. Highly responsive. Tough to find this kind of customer service. Prompt and Efficient Service. Really Happy!!",
+    "name": "Christa Smith",
+    "image": "./testimonials-img/02.jpg"
+  },
+  {
+    "id": 3,
+    "feedback": "We always prefer Bangladesh Eye Hospital. Both my husband Anwar Hossain Khan (Freedom Fighter) and I underwent eye surgery here. I am fascinated by their treatment and service",
+    "name": "Thomas Israel",
+    "image": "./testimonials-img/03.jpg"
+  },
+  {
+    "id": 4,
+    "feedback": "Visited here many times for general Eye treatment and for two operations. Very good doctors and very caring staff.",
+    "name": "Carl Oliver",
+    "image": "./testimonials-img/04.jpg"
+  },
+  {
+    "id": 5,
+    "feedback": "I believe that there is always a best way of doing everything. Professionalism, courtesy, patience, understanding and latest treatment are attributes of this institution at its best. It is an 'Eye Hospital with a difference' that has made it a first rate one of an international standard",
+    "name": "Barbara McIntosh",
+    "image": "./testimonials-img/05.jpg"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "category": "Eye Care",
+    "name": "Calvin Carlo",
+    "image": "./doctors-img/doctor1.jpg"
+  },
+  {
+    "id": 2,
+    "category": "Gynecology",
+    "name": "Cristino Murphy",
+    "image": "./doctors-img/doctor2.jpg"
+  },
+  {
+    "id": 3,
+    "category": "Psychotherapy",
+    "name": "Alia Reddy",
+    "image": "./doctors-img/doctor3.jpg"
+  },
+  {
+    "id": 4,
+    "category": "Orthopedic",
+    "name": "Toni Kovar",
+    "image": "./doctors-img/doctor4.jpg"
+  },
+  {
+    "id": 5,
+    "category": "Dentist",
+    "name": "Jessica McFarlane",
+    "image": "./doctors-img/doctor5.jpg"
+  },
+  {
+    "id": 6,
+    "category": "Gastrologist",
+    "name": "Elsie Sherman",
+    "image": "./doctors-img/doctor6.jpg"
+  },
+  {
+    "id": 7,
+    "category": "Urologist",
+    "name": "Bertha Magers",
+    "image": "./doctors-img/doctor7.jpg"
+  },
+  {
+    "id": 8,
+    "category": "Neurologist",
+    "name": "Louis Batey",
+    "image": "./doctors-img/doctor8.jpg"
+  }
+]

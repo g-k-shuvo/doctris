@@ -1,0 +1,11 @@
+.about-heading {
+  padding: 180px 0;
+  background: linear-gradient(rgba(52, 58, 64, 0.75), rgba(52, 58, 64, 0.75)),
+    url("../images/about.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center center;
+  background-color: rgba(55, 92, 185, 0.384);
+  text-align: center;
+}

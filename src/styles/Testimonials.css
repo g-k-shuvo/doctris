@@ -1,0 +1,15 @@
+.carousel-content {
+  padding: 60px 0;
+}
+
+.carousel-content img {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+.carousel-content h6 {
+  color: #396cf0;
+}

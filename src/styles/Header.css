@@ -1,0 +1,38 @@
+.navbar-brand {
+  margin-right: 60px;
+}
+
+.navbar-brand img {
+  width: 150px;
+}
+
+.navbar-nav .nav-link {
+  display: block;
+  color: #343a40;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  padding: 0 12px;
+}
+
+.navbar-nav .h-username {
+  margin: 0;
+  color: #215aee;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0 8px;
+  cursor: pointer;
+}
+
+.navbar-nav .h-logout {
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+  background: transparent;
+  color: #343a40;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 0.5s;
+}
