@@ -11,7 +11,7 @@ export default function SignUp() {
   const [email, setEmail] = useState("");
   const [password, setpassword] = useState("");
 
-  const { signUpUser, signInWithGoogle, signInWithFacebook } = useAuth();
+  const { error, signUpUser, signInWithGoogle, signInWithFacebook } = useAuth();
 
   //Handle Form Submit
   const handleSubmit = async (e) => {
@@ -117,6 +117,14 @@ export default function SignUp() {
                         </button>
                       </div>
                     </div>
+
+                    {error && (
+                      <div className="row">
+                        <div className="col-lg-12 mt-3 text-center">
+                          <h6 className="text-danger">{error}</h6>
+                        </div>
+                      </div>
+                    )}
 
                     <div className="mx-auto">
                       <p className="mb-0 mt-3">

@@ -16,12 +16,8 @@
   padding: 0 12px;
 }
 
-.navbar-nav .h-username {
-  margin: 0;
+.navbar-light .navbar-nav .h-username {
   color: #215aee;
-  font-size: 15px;
-  font-weight: 500;
-  padding: 0 8px;
   cursor: pointer;
 }
 

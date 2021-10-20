@@ -10,7 +10,8 @@ import {
   FacebookAuthProvider,
 } from "firebase/auth";
 import { useEffect, useState } from "react";
-import { useHistory } from "react-router-dom";
+
+import { useHistory, useLocation } from "react-router-dom";
 import initializeAuthentication from "../firebase/firebase.init";
 
 //initialize firebase  authentication
@@ -18,8 +19,11 @@ initializeAuthentication();
 
 const useFirebase = () => {
   const [user, setUser] = useState({});
+  const [error, setError] = useState("");
+  const location = useLocation();
   const auth = getAuth();
   const history = useHistory();
+  const redirect_uri = location.state?.from || "/";
 
   // Observer
   useEffect(() => {
@@ -40,7 +44,7 @@ const useFirebase = () => {
         });
       })
       .catch((err) => {
-        console.log(err.message);
+        setError(err.message);
       });
   };
 
@@ -50,9 +54,9 @@ const useFirebase = () => {
     signInWithPopup(auth, googleProvider)
       .then((res) => {
         setUser(res.user);
-        history.push("/");
+        history.push(redirect_uri);
       })
-      .catch((err) => console.log(err.message));
+      .catch((err) => setError(err.message));
   };
 
   // Facebook Sign In
@@ -61,10 +65,10 @@ const useFirebase = () => {
     signInWithPopup(auth, facebookProvider)
       .then((res) => {
         setUser(res.user);
-        history.push("/");
+        history.push(redirect_uri);
       })
       .catch((err) => {
-        console.log(err.message);
+        setError(err.message);
       });
   };
 
@@ -73,9 +77,9 @@ const useFirebase = () => {
     signInWithEmailAndPassword(auth, email, password)
       .then((res) => {
         setUser(res.user);
-        history.push("/");
+        history.push(redirect_uri);
       })
-      .catch((err) => console.log(err.message));
+      .catch((err) => setError(err.message));
   };
 
   // sign out
@@ -86,11 +90,12 @@ const useFirebase = () => {
         history.push("/login");
       })
       .catch((err) => {
-        console.log(err.message);
+        setError(err.message);
       });
   };
 
   return {
+    error,
     user,
     signInUser,
     signUpUser,

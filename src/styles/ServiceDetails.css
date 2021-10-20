@@ -1,0 +1,29 @@
+.service-details-heading {
+  background: linear-gradient(rgba(52, 58, 64, 0.75), rgba(52, 58, 64, 0.75)),
+    url("../images/contact.jpg");
+  padding: 200px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: top center;
+  text-align: center;
+}
+
+.service-details-heading a {
+  display: inline-block;
+  background: #fff;
+  color: #215aee;
+  padding: 8px 14px;
+  transition: 0.4s all;
+}
+
+.service-details-heading a:hover {
+  background: #215aee;
+  color: #fff;
+  padding: 8px 14px;
+  transition: 0.4s all;
+}
+
+.service-detail-text {
+  margin-left: 40px;
+}

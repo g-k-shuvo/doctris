@@ -11,11 +11,10 @@ import ErrorPage from "../pages/Error";
 import SignIn from "../pages/SignIn";
 import SignUp from "../pages/SignUp";
 import AuthProvider from "../contexts/AuthProvider";
-import PublicRoute from "../routes/PublicRoute";
-import ServiceDetails from "../pages/ServiceDetails";
 import Appoinment from "../pages/Appoinment";
 import Invoice from "../pages/Invoice";
 import PrivateRoute from "../routes/PrivateRoute";
+import ServiceDetails from "../pages/ServiceDetails";
 
 function App() {
   return (
@@ -23,15 +22,24 @@ function App() {
       <AuthProvider>
         <Header />
         <Switch>
-          <Route path="/" exact component={Home} />
-          <PublicRoute exact path="/about" component={About} />
-          <PublicRoute path="/doctors" component={Doctors} />
-          <PublicRoute path="/contact" component={Contact} />
-          <PrivateRoute path="/services/:id" component={ServiceDetails} />
-          <PublicRoute path="/login" component={SignIn} />
-          <PublicRoute path="/signup" component={SignUp} />
-          <PrivateRoute path="/appoinment" component={Appoinment} />
-          <PrivateRoute path="/invoice" component={Invoice} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/doctors" component={Doctors} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/login" component={SignIn} />
+          <Route exact path="/signup" component={SignUp} />
+
+          <PrivateRoute exact path="/services/:id">
+            <ServiceDetails />
+          </PrivateRoute>
+
+          <PrivateRoute exact path="/appoinment">
+            <Appoinment />
+          </PrivateRoute>
+
+          <PrivateRoute exact path="/invoice">
+            <Invoice />
+          </PrivateRoute>
 
           <Route path="*" component={ErrorPage} />
         </Switch>

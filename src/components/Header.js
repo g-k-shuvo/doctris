@@ -45,7 +45,7 @@ export default function Header() {
                 <LinkContainer to="/invoice">
                   <Nav.Link>Invoice</Nav.Link>
                 </LinkContainer>
-                <p className="h-username">{user.displayName}</p>
+                <Nav.Link className="h-username">{user.displayName}</Nav.Link>
                 <button className="h-logout" onClick={signOutUser}>
                   <span>
                     <FontAwesomeIcon icon={faArrowAltCircleRight} />{" "}

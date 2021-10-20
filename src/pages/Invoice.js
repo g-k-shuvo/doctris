@@ -13,7 +13,7 @@ export default function Invoice() {
           <div className="page-heading-text text-center">
             <Row className="justify-content-center">
               <Col>
-                <h3>Get In Touch</h3>
+                <h3>Your Invoice</h3>
                 <p>
                   Great doctor if you need your family member to get effective
                   immediate assistance, emergency treatment or a simple
@@ -21,7 +21,7 @@ export default function Invoice() {
                 </p>
                 <span className="d-breadcrumb">
                   Doctris <FontAwesomeIcon icon={faArrowRight} />{" "}
-                  <span>Contact</span>
+                  <span>Invoice</span>
                 </span>
               </Col>
             </Row>

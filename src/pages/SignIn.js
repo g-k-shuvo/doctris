@@ -11,7 +11,7 @@ export default function SignIn() {
   const [email, setEmail] = useState("");
   const [password, setpassword] = useState("");
 
-  const { signInUser, signInWithGoogle, signInWithFacebook } = useAuth();
+  const { error, signInUser, signInWithGoogle, signInWithFacebook } = useAuth();
 
   //Handle Form Submit
   const handleSubmit = async (e) => {
@@ -75,6 +75,7 @@ export default function SignIn() {
                       </div>
                     </div>
                   </form>
+
                   <div className="row">
                     <div className="col-lg-12 mt-3 text-center">
                       <h6 className="text-muted">Or</h6>
@@ -100,6 +101,14 @@ export default function SignIn() {
                         </button>
                       </div>
                     </div>
+
+                    {error && (
+                      <div className="row">
+                        <div className="col-lg-12 mt-3 text-center">
+                          <h6 className="text-danger">{error}</h6>
+                        </div>
+                      </div>
+                    )}
 
                     <div className="col-12 text-center">
                       <p className="mb-0 mt-3">

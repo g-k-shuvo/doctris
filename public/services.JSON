@@ -3,48 +3,48 @@
     "id": 1,
     "title": "Eye Care",
     "description": "Healthcare it is a two-way process: you: who are receiving the service and we who are providing the service.",
-    "image": "./services-img/eyecare.jpg"
+    "image": "/services-img/eyecare.jpg"
   },
   {
     "id": 2,
     "title": "Psychotherapy",
     "description": "Healthcare it is a two-way process: you: who are receiving the service and we who are providing the service.",
-    "image": "./services-img/psychotherapy.jpeg"
+    "image": "/services-img/psychotherapy.jpeg"
   },
   {
     "id": 3,
     "title": "Primary Care",
     "description": "Healthcare it is a two-way process: you: who are receiving the service and we who are providing the service.",
-    "image": "./services-img/primarycare.jpg"
+    "image": "/services-img/primarycare.jpg"
   },
   {
     "id": 4,
     "title": "Orthopedic",
     "description": "Healthcare it is a two-way process: you: who are receiving the service and we who are providing the service.",
-    "image": "./services-img/orthopedic.jpeg"
+    "image": "/services-img/orthopedic.jpeg"
   },
   {
     "id": 5,
     "title": "Cardiology",
     "description": "Healthcare it is a two-way process: you: who are receiving the service and we who are providing the service.",
-    "image": "./services-img/cardiology.jpg"
+    "image": "/services-img/cardiology.jpg"
   },
   {
     "id": 6,
     "title": "Gynecology",
     "description": "Healthcare it is a two-way process: you: who are receiving the service and we who are providing the service.",
-    "image": "./services-img/gynecology.jpg"
+    "image": "/services-img/gynecology.jpg"
   },
   {
     "id": 7,
     "title": "Neurology",
     "description": "Healthcare it is a two-way process: you: who are receiving the service and we who are providing the service.",
-    "image": "./services-img/neurology.jpg"
+    "image": "/services-img/neurology.jpg"
   },
   {
     "id": 8,
     "title": "Dental Care",
     "description": "Healthcare it is a two-way process: you: who are receiving the service and we who are providing the service.",
-    "image": "./services-img/dentalcare.jpg"
+    "image": "/services-img/dentalcare.jpg"
   }
 ]

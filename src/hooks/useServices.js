@@ -5,7 +5,7 @@ const useServices = () => {
   const [services, setServices] = useState([]);
 
   useEffect(() => {
-    fetch("./services.JSON")
+    fetch("./services.json")
       .then((res) => res.json())
       .then((data) => {
         setLoading(false);
