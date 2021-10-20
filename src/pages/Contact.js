@@ -35,7 +35,7 @@ export default function Contact() {
       </div>
       <div className="contact-info section-padding">
         <Container>
-          <Row>
+          <Row className="gy-5">
             <Col md={4}>
               <div className="contact-item">
                 <div className="contact-icon">
